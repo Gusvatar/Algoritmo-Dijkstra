@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        #mynetwork {
+            width: 600px;
+            height: 400px;
+            border: 1px solid lightgray;
+        }
+    </style>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <label for="init">Vertice inicial:</label>
+            <input type="text" id="init" name="init">
+            <input id="txtFileInput" type="file">
+        </div>
+        <div id="mynetwork"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
